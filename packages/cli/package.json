@@ -1,6 +1,6 @@
 {
-  "name": "pkg-pr-new",
-  "version": "0.0.15",
+  "name": "@wuxh/pkg-pr-new",
+  "version": "0.0.15-fork.01",
   "description": "",
   "main": "index.js",
   "type": "module",
@@ -29,5 +29,9 @@
     "@pkg-pr-new/utils": "workspace:^",
     "citty": "^0.1.6",
     "tsup": "^8.0.2"
+  },
+  "publishConfig": {
+    "access": "public",
+    "registry": "https://registry.npmjs.org/"
   }
 }
